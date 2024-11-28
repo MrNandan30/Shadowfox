@@ -46,7 +46,8 @@ Switch between light and dark themes using the theme toggle button.
 
 ## Screenshots
 ### Home Page
-![Screenshot (102)](https://github.com/user-attachments/assets/38853271-6352-4daa-ac90-bf3169a7d125)
+![Screenshot (102)](https://github.com/user-attachments/assets/64a559a9-c940-49fd-adcc-711c23eda0fd)
+
 
 
 
@@ -96,11 +97,13 @@ anime-ecommerce/ ├── home.html # Home Page ├── comic.html # Add Comi
 
 ## Screenshots
 ### Home Page
-![Screenshot (24)](https://github.com/user-attachments/assets/f2fa5a62-c9c6-4272-8f52-28f1947e04f5)
+![Screenshot (24)](https://github.com/user-attachments/assets/b33f70d4-bf1a-42d7-a0f1-fbbfbbf6ca9a)
+
 
 
 ### Explore Section
-![Screenshot (27)](https://github.com/user-attachments/assets/90e0a56a-e003-4943-8ab2-cdf810568b80)
+![Screenshot (27)](https://github.com/user-attachments/assets/f4f178da-bcf7-49d0-94c8-bf2dd7de4e45)
+
 
 
 ### Contact
