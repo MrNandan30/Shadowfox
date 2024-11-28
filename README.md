@@ -20,7 +20,7 @@ portfolio/ ├── index.html # Main HTML file ├── style.css # CSS file 
 
 
 ## How to Use
-1. Clone or download the repository.
+ Clone or download the repository.
 
 
 
