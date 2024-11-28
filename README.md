@@ -21,6 +21,33 @@ portfolio/ ├── index.html # Main HTML file ├── style.css # CSS file 
 
 ## How to Use
  Clone or download the repository.
+2. Open the `index.html` file in your browser to view the website.
+
+## Live Demo
+Check out the live version of the website file:///C:/Users/nanda/OneDrive/Desktop/beginner%20level/index.html
+
+## Features Breakdown
+### Dynamic Greeting
+A personalized greeting appears based on the time of day (e.g., "Good Morning").
+
+### Skills Filtering
+Users can type in a search box to filter my skills dynamically.
+
+### Smooth Scrolling
+Navigation links allow smooth scrolling to specific sections on the page.
+
+### Theme Toggle
+Switch between light and dark themes using the theme toggle button.
+
+## Future Improvements
+- Add more projects with live links.
+- Enhance the contact form with backend integration for handling form submissions.
+- Include animations for smoother transitions between sections.
+
+## Screenshots
+### Home Page
+![Screenshot (102)](https://github.com/user-attachments/assets/38853271-6352-4daa-ac90-bf3169a7d125)
+
 
 
 
@@ -42,6 +69,43 @@ The **Comic Store** is an anime-themed e-commerce website designed for fans to e
 
 ## Project Structure
 anime-ecommerce/ ├── home.html # Home Page ├── comic.html # Add Comic Page ├── explore.html # Explore Comics Page ├── about.html # About Page ├── style.css # Shared styles (embedded or external) └── images/ # Folder for storing images (e.g., background, comic covers)
+2. Open `home.html` in your browser to view the website.
+
+## Pages Breakdown
+### Home Page (`home.html`)
+- A welcoming landing page with a background image and buttons leading to other sections.
+- Links:
+- **Add Book**: Navigate to `comic.html` for adding new comics.
+- **Explore**: Navigate to `explore.html` to browse available comics.
+- **About**: Navigate to `about.html` to learn about the store.
+
+### Add Comic Page (`comic.html`)
+- A form for adding new comic books (optional functionality can be added for form submission).
+
+### Explore Comics Page (`explore.html`)
+- A gallery or list of available comics with images, descriptions, and prices.
+
+### About Page (`about.html`)
+- Detailed information about the store's mission and values, connecting with anime enthusiasts.
+
+## Future Enhancements
+- Add a shopping cart feature for users to purchase comics.
+- Include JavaScript to handle form submissions dynamically.
+- Enhance the explore section with filters (e.g., by genre, price).
+- Implement a backend system to manage comics and user accounts.
+
+## Screenshots
+### Home Page
+![Screenshot (24)](https://github.com/user-attachments/assets/f2fa5a62-c9c6-4272-8f52-28f1947e04f5)
+
+
+### Explore Section
+![Screenshot (27)](https://github.com/user-attachments/assets/90e0a56a-e003-4943-8ab2-cdf810568b80)
+
+
+### Contact
+- **Email**: nandansuresh30@gmail.com
+
 
 
 
