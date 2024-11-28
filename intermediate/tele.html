@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Telegram</h1>
+        <nav>
+            <ul>
+                <li><center><a href="#">Home</a></center></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><div class="S T A T U S">
+                    <button onclick="myFunction()" class="dropbtn">S T A T U S</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <div class="status-container">
+                            <div class="status">
+                                <img src="profile1.jpg" alt="Profile Picture">
+                                <div class="status-info">
+                                    <h2>Luffy</h2>
+                                    <p>I will be the pirate KIng</p>
+                                </div>
+                            </div>
+                            <div class="status">
+                                <img src="profile2.jpg" alt="Profile Picture">
+                                <div class="status-info">
+                                    <h2> Zoro </h2>
+                                    <p>Just finished my workout! 💪</p>
+                                </div>
+                            </div>
+                            <div class="status">
+                                <img src="profile2.jpg" alt="Profile Picture">
+                                <div class="status-info">
+                                    <h2> Nami </h2>
+                                    <p> feeling Sexy </p>
+                                </div>
+                            </div>
+                            <div class="status">
+                                <img src="profile2.jpg" alt="Profile Picture">
+                                <div class="status-info">
+                                    <h2> Sanji </h2>
+                                    <p> Nami channn </p>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                  </div>
+                  
+                  <script>
+                  /* When the user clicks on the button, 
+                  toggle between hiding and showing the dropdown content */
+                  function myFunction() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                  }
+                  
+                  // Close the dropdown if the user clicks outside of it
+                  window.onclick = function(event) {
+                    if (!event.target.matches('.dropbtn')) {
+                      var dropdowns = document.getElementsByClassName("dropdown-content");
+                      var i;
+                      for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                          openDropdown.classList.remove('show');
+                        }
+                      }
+                    }
+                  }
+                  </script> </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contacts-container">
+        <div class="contact">
+            <img src="profile1.jpg" alt="Profile Picture">
+            <div class="contact-info">
+                <h2>Luffy</h2>
+                <p>Status: Away</p>
+            </div>
+        </div>
+        <div class="contact">
+            <img src="profile2.jpg" alt="Profile Picture">
+            <div class="contact-info">
+                <h2>Zoro</h2>
+                <p>Status: Away</p>
+            </div>
+        </div>
+        </div>
+        <div class="contact">
+            <img src="profile3.jpg" alt="Profile Picture">
+            <div class="contact-info">
+                <h2>Nami</h2>
+                <p>Status: Online</p>
+            </div>
+        </div>
+        </div>
+        <div class="contact">
+            <img src="profile4.jpg" alt="Profile Picture">
+            <div class="contact-info">
+                <h2>Usopp</h2>
+                <p>Status: Away</p>
+            </div>
+        </div>
+        </div>
+        <div class="contact">
+            <img src="profile5.jpg" alt="Profile Picture">
+            <div class="contact-info">
+                <h2>Sanji</h2>
+                <p>Status: Online</p>
+            </div>
+        </div>
+        </div>
+        <div class="contact">
+            <img src="profile6.jpg" alt="Profile Picture">
+            <div class="contact-info">
+                <h2>Chopper</h2>
+                <p>Status: Away</p>
+            </div>
+        </div>
+        </div><div class="contact">
+            <img src="profile7.jpg" alt="Profile Picture">
+            <div class="contact-info">
+                <h2>Robin</h2>
+                <p>Status: Online</p>
+            </div>
+        </div>
+        </div>
+        
+</body>
+</html>

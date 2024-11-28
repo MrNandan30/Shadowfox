@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('haikyu2.jpg');
+      background-size: cover;
+      background-position: center;
+
+      
+    }
+
+    header {
+      font-style: oblique;
+      color: black;
+      text-align: center;
+      padding: 1em;
+      font-size: x-large;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    form {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    .a{
+      position:absolute;top: 0;right: 0;
+    }
+    a{
+      color: black;
+    }
+
+    li {
+      border: 1px solid #ddd;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 4px;
+      background-color: #fff;
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const form = document.getElementById('addBookForm');
+      const titleInput = document.getElementById('title');
+      const authorInput = document.getElementById('author');
+      const bookList = document.getElementById('bookList');
+
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        const title = titleInput.value;
+        const author = authorInput.value;
+
+        if (title && author) {
+          const listItem = document.createElement('li');
+          listItem.innerHTML = `
+            <span>${title} by ${author}</span>
+            <button onclick="removeBook(this)">Remove</button>
+          `;
+          bookList.appendChild(listItem);
+
+          // Clear input fields
+          titleInput.value = '';
+          authorInput.value = '';
+        }
+      });
+    });
+
+    function removeBook(button) {
+      const listItem = button.closest('li');
+      listItem.remove();
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>
+      <br><br><br>BOOK ROOM</h1>
+  </header>
+  <main>
+    <form id="addBookForm">
+      <input type="text" id="title" placeholder="Title" required>
+      <input type="text" id="author" placeholder="Author" required>
+      <button type="submit">Add Book</button>
+    </form>
+    <ul id="bookList"></ul>
+    <button class="a"><a href="home.html"> HOME</a> </button>
+  </main>
+</body>
+</html>
