@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background: #007BFF;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Section Styles */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Image */
+.profile-img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* Skills */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    background: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+/* Projects */
+.project {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 5px 0 5px;
+}
+
+form input, form textarea, form button {
+    margin: 5px 0 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+form button {
+    background: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+body.dark-mode header {
+    background-color: #333;
+}
+
+body.dark-mode form button {
+    background-color: #444;
+}
+
+body.dark-mode form button:hover {
+    background-color: #222;
+}
+
+body.dark-mode section {
+    background-color: #1e1e1e;
+    color: #ddd;
+}
